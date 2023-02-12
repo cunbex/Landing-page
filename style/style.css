@@ -117,3 +117,29 @@ nav ul a {
 .img img:hover {
   transform: scale(1.5);
 }
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+  gap: 3em;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5em 0;
+}
+.quote em {
+  padding: 0 8em;
+  line-height: 1.5em;
+  font-size: 36px;
+  font-weight: 400;
+  color: #1f2937;
+}
+.quote .user {
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+}
+.user big {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1f2937;
+}
