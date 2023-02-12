@@ -145,7 +145,7 @@ nav ul a {
   text-decoration: underline;
 }
 .offer {
-  padding: 4em 2em;
+  padding: 4em 6em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -186,4 +186,14 @@ nav ul a {
 }
 .offer-left p {
   color: #e5e7ebc9;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em 0;
+  background-color: #1f2937;
+}
+footer p {
+  color: white;
 }
