@@ -142,4 +142,48 @@ nav ul a {
   font-size: 28px;
   font-weight: 700;
   color: #1f2937;
+  text-decoration: underline;
+}
+.offer {
+  padding: 4em 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.offer-bar {
+  background-color: rgb(18, 107, 18);
+  padding: 3em 8em;
+  border-radius: 1rem;
+  display: flex;
+  gap: 10em;
+  align-items: center;
+}
+.offer-bar button {
+  padding: 10px 40px;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  border-radius: 1em;
+  font-size: 18px;
+}
+.offer-bar button:hover {
+  cursor: pointer;
+  background: white;
+  color: rgb(18, 107, 18);
+}
+.offer-left {
+  display: flex;
+  gap: 1em;
+  flex-direction: column;
+}
+.offer-left h2 {
+  font-size: 32px;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.offer-left p {
+  color: #e5e7ebc9;
 }
