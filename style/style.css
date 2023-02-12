@@ -87,7 +87,7 @@ nav ul a {
 .bottom-hero-right {
   width: 45%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 .info {
   padding: 5em 0;
